@@ -6,6 +6,10 @@
 .wrap {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 10px auto;
+	max-width: 1280px;
+	background: orange;
+	border: 1px dotted blue;
 }
 
 .block {
@@ -15,4 +19,6 @@
 	text-align: center;
 	padding: 20px;
 	margin: 10px;
+	box-sizing: border-box;
+	flex: 1 0 calc(100% / 5 - 20px);
 }
