@@ -54,3 +54,13 @@
 		flex: 1 0 calc(100% - 20px);
 	}
 }
+
+@media screen and (max-width: 480px) {
+	.wrap {
+		flex-direction: column-reverse;
+	}
+
+	.block {
+		flex: 1 0 calc(100%-20px)
+	}
+}
