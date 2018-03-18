@@ -40,3 +40,17 @@
 		order: 2;
 	}
 }
+
+@media screen and (max-width: 768px) and (min-width: 479px) {
+	.block {
+		flex: 1 0 calc(100%/2 - 20px);
+	}
+
+	.hidden2 {
+		display: none;
+	}
+
+	.first-block {
+		flex: 1 0 calc(100% - 20px);
+	}
+}
