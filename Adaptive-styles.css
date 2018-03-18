@@ -22,3 +22,21 @@
 	box-sizing: border-box;
 	flex: 1 0 calc(100% / 5 - 20px);
 }
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+	.block {
+		flex: 1 0 calc(100%/2 - 20px);
+	}
+
+	.hidden {
+		display: none;
+	}
+
+	.order1 {
+		order: -1;
+	}
+
+	.order2 {
+		order: 2;
+	}
+}
